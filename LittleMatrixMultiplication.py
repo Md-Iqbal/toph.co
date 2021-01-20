@@ -1,0 +1,5 @@
+x,y = list(map(int, input().split()))
+x1,y1 = list(map(int, input().split()))
+a,b = list(map(int, input().split()))
+a1,b1 = list(map(int, input().split()))
+print("{} {}\n{} {}".format(x*a+y*a1, x*b+y*b1, x1*a+y1*a1, x1*b+y1*b1))
